@@ -1,2 +1,2 @@
-# xebicon19-atomic-design-driven-development
-Atomic Design Driven Development
+# XebiCon 2019
+## Atomic Design Driven Development
