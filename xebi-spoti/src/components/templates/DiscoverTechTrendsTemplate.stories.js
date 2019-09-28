@@ -30,7 +30,7 @@ const techTrends = [
   {title: 'Cloud', image},
 ];
 
-const ttCategories = [0, 1, 2, 3, 4, 5].map(i => ({techTrends, title: title(i), subtitle: subtitle(i)}));
+const ttCategories = [1, 2, 3, 4].map(i => ({techTrends, title: title(i), subtitle: subtitle(i)}));
 
 export const withManyCategories = () => ({
   components: {DiscoverTechTrendsTemplate},

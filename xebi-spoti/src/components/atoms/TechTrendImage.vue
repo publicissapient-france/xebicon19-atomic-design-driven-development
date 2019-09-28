@@ -18,5 +18,13 @@
 </script>
 
 <style scoped>
-
+  .tt-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 2px;
+    transition: 200ms filter ease-out;
+  }
+  .tt-image:hover {
+    filter: sepia(.6);
+  }
 </style>

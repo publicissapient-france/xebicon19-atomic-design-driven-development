@@ -6,7 +6,7 @@ const title = 'Tech Trends #1';
 const subtitle = 'From Tech to Trends and beyond';
 
 const image = {
-  src: 'https://picsum.photos/id/995/300/300',
+  src: 'https://picsum.photos/id/995/200/200',
 };
 
 const techTrends = [

@@ -1,7 +1,9 @@
 <template>
   <div class="tt-with-title">
     <TechTrendImage class="tt-with-title__image" :src="image.src" :alt="image.alt"/>
-    <h3 class="tt-with-title__title"><slot></slot></h3>
+    <p class="tt-with-title__title">
+      <slot></slot>
+    </p>
   </div>
 </template>
 
@@ -21,5 +23,13 @@
 </script>
 
 <style scoped>
+  .tt-with-title {
+    text-align: center;
+    cursor: pointer;
+  }
 
+  .tt-with-title .tt-with-title__title {
+    font-weight: 500;
+    margin-top: 5px;
+  }
 </style>
