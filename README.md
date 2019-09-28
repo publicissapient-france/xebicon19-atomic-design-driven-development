@@ -3,9 +3,11 @@
 
 Checkout [presentation](atomic-design-driven-development.md) with [Deckset](https://www.deckset.com/)
 
-WIP
+Demo: [Storybook](https://xebia-france.github.io/xebicon19-atomic-design-driven-development/sb/)
 
-## Présentation
+## WIP
+
+### Présentation
 
 - [ ] Qui sommes-nous ? (@jsm)
 - [ ] Atome (@bla)
@@ -22,7 +24,7 @@ WIP
 - [ ] Baby steps (@jsm)
 - [ ] Conclusion (@jsm)
 
-## Code
+### Code
 
 - [x] Vue app
 - [x] Storybook
