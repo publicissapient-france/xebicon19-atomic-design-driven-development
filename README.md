@@ -5,6 +5,8 @@ Checkout [presentation](atomic-design-driven-development.md) with [Deckset](http
 
 WIP
 
+## Présentation
+
 - [ ] Qui sommes-nous ? (@jsm)
 - [ ] Atome (@bla)
 - [ ] Molécule (@bla)
@@ -19,3 +21,11 @@ WIP
 - [ ] Atomiser une app legacy (@jsm)
 - [ ] Baby steps (@jsm)
 - [ ] Conclusion (@jsm)
+
+## Code
+
+- [x] Vue app
+- [x] Storybook
+- [x] Storybook hosted on [docs](./docs)
+- [ ] Homepage
+- [ ] Homepage hosted on [docs](./docs)
