@@ -4,5 +4,5 @@ export default {title: 'Atoms/TechTrendImage'};
 
 export const withImage = () => ({
   components: {TechTrendImage},
-  template: '<TechTrendImage src="https://picsum.photos/id/995/200/200"/>',
+  template: '<TechTrendImage src="https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/tt-data-science.webp"/>',
 });

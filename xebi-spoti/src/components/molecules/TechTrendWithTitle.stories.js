@@ -3,7 +3,7 @@ import TechTrendWithTitle from './TechTrendWithTitle';
 export default {title: 'Molecules/TechTrendWithTitle'};
 
 const image = {
-  src: 'https://picsum.photos/id/995/300/300',
+  src: 'https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/tt-data-science.webp',
 };
 
 export const withImageAndTitle = () => ({

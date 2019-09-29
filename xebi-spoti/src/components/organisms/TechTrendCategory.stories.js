@@ -6,7 +6,7 @@ const title = 'Tech Trends #1';
 const subtitle = 'From Tech to Trends and beyond';
 
 const image = {
-  src: 'https://picsum.photos/id/995/200/200',
+  src: 'https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/tt-data-science.webp',
 };
 
 const techTrends = [

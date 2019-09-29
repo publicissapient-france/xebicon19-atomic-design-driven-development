@@ -20,7 +20,7 @@
 <style scoped>
   .tt-image {
     height: 200px;
-    width: 200px;
+    width: 150px;
     border-radius: 2px;
     transition: 200ms filter ease-out;
   }
