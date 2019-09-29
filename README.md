@@ -11,25 +11,25 @@ Demo:
 
 ### Présentation
 
-- [ ] Qui sommes-nous ? (@jsm)
-- [ ] Atome (@bla)
-- [ ] Molécule (@bla)
-- [ ] Organisme (@bla)
-- [ ] Template (@bla)
-- [ ] Page (@bla)
-- [ ] Tooling (@bla)
-- [ ] Abstract (@bla)
-- [ ] InVision (@bla)
-- [ ] Storybook (@bla)
+- [x] Qui sommes-nous ? (@jsm)
+- [x] Atome (@bla)
+- [x] Molécule (@bla)
+- [x] Organisme (@bla)
+- [x] Template (@bla)
+- [x] Page (@bla)
+- [x] Tooling (@bla)
+- [ ] ~Abstract (@bla)~
+- [ ] ~InVision (@bla)~
+- [x] Storybook (@bla)
 - [ ] Découper pour mieux tester (@jsm)
 - [ ] Atomiser une app legacy (@jsm)
 - [ ] Baby steps (@jsm)
-- [ ] Conclusion (@jsm)
+- [x] Conclusion (@bla)
 
 ### Code
 
 - [x] Vue app
 - [x] Storybook
 - [x] Storybook hosted on [docs](./docs)
-- [ ] Homepage
-- [ ] Homepage hosted on [docs](./docs)
+- [x] Homepage
+- [x] Homepage hosted on [docs](./docs)
