@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest ../docs/app",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook",
     "storybook:build": "build-storybook -c .storybook -o ../docs/sb"
