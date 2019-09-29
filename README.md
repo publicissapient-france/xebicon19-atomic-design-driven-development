@@ -3,7 +3,9 @@
 
 Checkout [presentation](atomic-design-driven-development.md) with [Deckset](https://www.deckset.com/)
 
-Demo: [Storybook](https://xebia-france.github.io/xebicon19-atomic-design-driven-development/sb/)
+Demo:
+- [App](https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/)
+- [Storybook](https://xebia-france.github.io/xebicon19-atomic-design-driven-development/sb/)
 
 ## WIP
 

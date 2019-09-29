@@ -1,0 +1,170 @@
+[
+  {
+    "techTrends": [
+      {
+        "title": "DevOps",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Mobile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Agile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Data",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Back",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Cloud",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      }
+    ],
+    "title": "Tech Trends #1",
+    "subtitle": "In code we trust"
+  },
+  {
+    "techTrends": [
+      {
+        "title": "DevOps",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Mobile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Agile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Data",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Back",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Cloud",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      }
+    ],
+    "title": "Tech Trends #2",
+    "subtitle": "Agile or nothing"
+  },
+  {
+    "techTrends": [
+      {
+        "title": "DevOps",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Mobile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Agile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Data",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Back",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Cloud",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      }
+    ],
+    "title": "Tech Trends #3",
+    "subtitle": "From Tech to Trends and beyond"
+  },
+  {
+    "techTrends": [
+      {
+        "title": "DevOps",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Mobile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Agile",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Data",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Back",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      },
+      {
+        "title": "Cloud",
+        "image": {
+          "src": "https://picsum.photos/id/995/300/300"
+        }
+      }
+    ],
+    "title": "Tech Trends #4",
+    "subtitle": "In code we trust"
+  }
+]

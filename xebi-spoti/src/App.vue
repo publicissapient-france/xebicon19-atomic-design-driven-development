@@ -1,10 +1,26 @@
 <template>
-  <div id="app"></div>
+  <div class="app">
+    <DiscoverTechTrendsTemplate :tt-categories="ttCategories"/>
+  </div>
 </template>
 
 <script>
+  import DiscoverTechTrendsTemplate from './components/templates/DiscoverTechTrendsTemplate';
+  import TtCategoryService from './services/tt-categories.service';
+
   export default {
     name: 'app',
+    components: {
+      DiscoverTechTrendsTemplate
+    },
+    data() {
+      return {
+        ttCategories: [],
+      };
+    },
+    async mounted() {
+      this.ttCategories = await TtCategoryService.getTtCategories();
+    }
   }
 </script>
 
