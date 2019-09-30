@@ -99,7 +99,7 @@ Une *page* nécessite des *données*, des *intéractions*, des *animations*, du 
 
 Element *indivisible* qui sert de *base* à d'autres composants. *Simple* et utilisé à *plusieurs* endroit
 <br/>
-Example :
+Exemples :
 
 - Logo
 - Image
@@ -113,11 +113,11 @@ Example :
 
 ![right 60%](molecule.png)
 
-*Collections* d'atomes qui forment des composants un peu plus *complexes* 
+*Collection* d'atomes qui forment des composants un peu plus *complexes* 
 
-Les molécules sont *sensible* à la *taille* des écrans
+Les molécules sont *sensibles* à la *taille* des écrans
 <br/>
-Example :
+Exemple :
 
 - label + champs de saisie + pictogramme loupe 🔍
 
@@ -131,9 +131,9 @@ Example :
 
 Combinaison *complexe* de *molécules* et ou *d'atomes* qui forment un *partie* de l'interface *finale*
 <br/>
-Example :
+Exemple :
 
-- Champs de recherche + navigation + logo = header 
+- Champ de recherche + navigation + logo = header 
 
 ---
 
@@ -149,7 +149,7 @@ Le template contient des *organismes*, des *molécules* et des *atomes*.
 
 C'est le *dernier* niveau qui est dans *Storybook*.
 
-Example :
+Exemple :
 
 - Header + liste des catégories + footer
 
@@ -159,7 +159,7 @@ Example :
 
 # Page
 
-C'est le *template* remplis avec des *données* de l'*API*, la *navigation* entre les pages fonctionne.
+C'est le *template* rempli avec des *données* de l'*API*, la *navigation* entre les pages fonctionne.
 
 C'est l'application *finale* visible par le *client*.
 
@@ -177,13 +177,13 @@ Elle est plus *difficile* à *tester* et le processus de *développement* est pl
 
 # Découper pour mieux tester
 
-*Découper* en *plusieurs* éléments des *avantages* :
+*Découper* en *plusieurs* éléments a des *avantages* :
 
 - *Simplifier* les tests
 - Obtenir des feedbacks *rapidement* et *régulièrement*
 - *Documenter*
 - *Accélérer* le développement
-- *Partager* du *comportements* et du *style*
+- *Partager* du *comportement* et du *style*
 
 ---
 
@@ -194,7 +194,7 @@ Elle est plus *difficile* à *tester* et le processus de *développement* est pl
 [.header: #595959, alignment(left), line-height(1), Oswald]
 
 - *n* pages
-- Du code *dupliqué*
+- Code *dupliqué*
 - Responsabilités *multiples* :
     - *Appels* API
     - *Logique* métier dans la page
