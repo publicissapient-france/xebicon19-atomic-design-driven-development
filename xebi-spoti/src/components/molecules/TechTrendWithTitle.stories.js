@@ -3,7 +3,7 @@ import TechTrendWithTitle from './TechTrendWithTitle';
 export default {title: 'Molecules/TechTrendWithTitle'};
 
 const image = {
-  src: 'https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/tt-data-science.webp',
+  src: 'https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp',
 };
 
 export const withImageAndTitle = () => ({
@@ -13,5 +13,5 @@ export const withImageAndTitle = () => ({
       image,
     };
   },
-  template: '<TechTrendWithTitle :image="image">DevOps</TechTrendWithTitle>',
+  template: '<TechTrendWithTitle :image="image">Mobile</TechTrendWithTitle>',
 });

@@ -1,46 +1,38 @@
 theme: XebiCon19
 slidenumbers: true
-
-![original](xebicon19-background.png)
+slide-dividers: #
 
 # Atomic Design Driven Development
 
+![original](assets/xebicon19-background.png)
+
+[.header: #FEFEFE, alignment(center), line-height(1), Oswald]
 [.slidenumbers: false]
-[.footer-style: #fff, alignment(right)]
+[.footer-style: #FEFEFE, alignment(right)]
 [.footer: XebiCon19 | @XebiConFr | #XebiCon19]
 
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
-[.footer-style: #fff, alignment(left)]
-[.footer: @benjlacroix]
-
-![left filtered](benjamin-lacroix.jpg)
-
 # Qui sommes-nous ?
+
+![left filtered](assets/benjamin-lacroix.jpg)
 
 *Benjamin* Lacroix
 Développeur fullstack
 6 ans à Xebia
 
---- 
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
-[.footer-style: #fff, alignment(right)]
-[.footer: @jsmadja]
-[.slidenumbers: false]
+[.footer-style: #FEFEFE, alignment(left)]
+[.footer: @benjlacroix]
 
 # Qui sommes-nous ?
 
-![right filtered](julien-smadja.jpg)
+![right filtered](assets/julien-smadja.jpg)
 
 *Julien* Smadja
 Développeur fullstack
 9 ans à Xebia
 
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
+[.footer: @jsmadja]
+[.footer-style: #FEFEFE, alignment(right)]
+[.slidenumbers: false]
 
 # Plan
 
@@ -49,20 +41,15 @@ Développeur fullstack
 - What : *Atomiser* une app legacy
 - *Atomic Design*, c'est bien
 
----
-
 # Why
+
+[.header: #FEFEFE, alignment(center), line-height(1), Oswald]
 
 ## Une vision<br/>atomique du design
 
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
-[.slidenumbers: false]
-
-![right 40%](./atomic-design-brad-frost.png)
-
 # Constat Design
+
+![right 40%](assets/atomic-design-brad-frost.png)
 
 Le design par *page* n'a plus sa place
 
@@ -70,9 +57,7 @@ Ces dernières sont conçues via des *éléments d'interface* qui vont devoir s'
 
 Atomic Design propose une approche par composants, expliqué en détails par *Brad Frost*
 
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
+[.slidenumbers: false]
 
 # Constat Tech
 
@@ -89,13 +74,9 @@ Une *page* nécessite des *données*, des *intéractions*, des *animations*, du 
 > Arrêter de penser en *page* mais en un système de *composants* qui s'adaptent
 > aux différents *supports*
 
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
-
-![left 130%](atome.png)
-
 # Atome
+
+![left 130%](assets/atome.png)
 
 Element *indivisible* qui sert de *base* à d'autres composants. *Simple* et utilisé à *plusieurs* endroit
 <br/>
@@ -105,13 +86,19 @@ Exemples :
 - Image
 - Texte
 
----
+# Atome
 
-[.header: #595959, alignment(left), line-height(1), Oswald]
+[.code-highlight: 2]
+
+```html
+<template>
+  <img :src="src" :alt="alt" class="tt-image">
+</template>
+```
 
 # Molécule
 
-![right 60%](molecule.png)
+![right 60%](assets/molecule.png)
 
 *Collection* d'atomes qui forment des composants un peu plus *complexes* 
 
@@ -121,13 +108,29 @@ Exemple :
 
 - label + champs de saisie + pictogramme loupe 🔍
 
----
+# Molécule
 
-[.header: #595959, alignment(left), line-height(1), Oswald]
+[.code-highlight: 3-6]
+[.code-highlight: 7-9]
+[.code-highlight: 2-10]
+
+```html
+<template>
+  <div class="tt-with-title">
+    <TechTrendImage 
+      class="tt-with-title__image"
+      :src="image.src"
+      :alt="image.alt"/>
+    <p class="tt-with-title__title">
+      <slot></slot>
+    </p>
+  </div>
+</template>
+```
 
 # Organisme
 
-![left 50%](organism.png)
+![left 100%](assets/organism.png)
 
 Combinaison *complexe* de *molécules* et ou *d'atomes* qui forment un *partie* de l'interface *finale*
 <br/>
@@ -135,13 +138,31 @@ Exemple :
 
 - Champ de recherche + navigation + logo = header 
 
----
+# Organisme
 
-[.header: #595959, alignment(left), line-height(1), Oswald]
+[.code-highlight: 3]
+[.code-highlight: 5-10]
+[.code-highlight: 2-12]
+
+```html
+<template>
+  <section class="tt-category">
+    <HeaderList :title="title" :subtitle="subtitle"/>
+    <div class="tt-category__items">
+      <TechTrendWithTitle
+          class="tt-category__item"
+          :image="tt.image"
+          :key="tt.title"
+          v-for="tt in techTrends">{{tt.title}}
+      </TechTrendWithTitle>
+    </div>
+  </section>
+</template>
+```
 
 # Template
 
-![right 40%](template.png)
+![right 60%](assets/template.png)
 
 Une *page*... sans *données*.
 
@@ -153,9 +174,28 @@ Exemple :
 
 - Header + liste des catégories + footer
 
----
+# Template
 
-[.header: #595959, alignment(left), line-height(1), Oswald]
+[.code-highlight: 3-5]
+[.code-highlight: 6-12]
+[.code-highlight: 2-13]
+
+```html
+<template>
+  <div class="discover-tts-template">
+    <h1 class="discover-tts-template__title">
+      Great list of available Tech Trends for XebiCon19!
+    </h1>
+    <TechTrendCategory
+        class="discover-tts-template__category"
+        :tech-trends="ttCategory.techTrends"
+        :title="ttCategory.title"
+        :subtitle="ttCategory.subtitle"
+        :key="ttCategory.title"
+        v-for="ttCategory in ttCategories"/>
+  </div>
+</template>
+```
 
 # Page
 
@@ -167,13 +207,41 @@ Cette partie n'est plus dans *Storybook*.
 
 Elle est plus *difficile* à *tester* et le processus de *développement* est plus *long* que pour les éléments précédents.
 
+# Page
+
+[.code-highlight: 3]
+
+```html
+<template>
+  <div class="app">
+    <DiscoverTechTrendsTemplate :tt-categories="ttCategories"/>
+  </div>
+</template>
+```
+
+[.code-highlight: none]
+[.code-highlight: 5-9]
+[.code-highlight: 10-12]
+
+```javascript
+export default {
+  components: {
+    DiscoverTechTrendsTemplate
+  },
+  data() {
+    return {
+      ttCategories: [],
+    };
+  },
+  async mounted() {
+    this.ttCategories = await TtCategoryService.getTtCategories();
+  }
+}
+```
+
 ---
 
 ![fit autoplay](https://storybook.js.org/videos/storybook-hero-video-optimized.mp4)
-
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
 
 # Découper pour mieux tester
 
@@ -185,13 +253,7 @@ Elle est plus *difficile* à *tester* et le processus de *développement* est pl
 - *Accélérer* le développement
 - *Partager* du *comportement* et du *style*
 
----
-
 # Atomiser une app legacy
-
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
 
 - *n* pages
 - Code *dupliqué*
@@ -202,11 +264,7 @@ Elle est plus *difficile* à *tester* et le processus de *développement* est pl
 - Développement *fastidieux* :
     - *Retour* à l'état précédent à chaque *rafraîchissement*
 
----
-
 # Baby steps
-
----
 
 1. Choisir une *page*
 1. Ajouter *Storybook* au projet
@@ -217,10 +275,6 @@ Elle est plus *difficile* à *tester* et le processus de *développement* est pl
 1. *Remonter* tous les appels *API* dans la page
 1. S'*attaquer* à une autre page et utiliser les composants déjà *découpés*
 
----
-
-[.header: #595959, alignment(left), line-height(1), Oswald]
-
 # Conclusion
 
 - Même sur un projet *legacy*
@@ -229,20 +283,17 @@ Elle est plus *difficile* à *tester* et le processus de *développement* est pl
 - *Efficacité*
 - *Testabilité*
 
----
+# [fit] XEBICON**19**
 
 [.text: #595959, alignment(center), Nunito]
 [.text-strong: #fe414d]
 [.header: #fe414d]
-
-# [fit] XEBICON**19**
 
 La vidéo de cette conférence
 sera prochainement sur **xebicon.fr**
 
 Pour en être informé, restez connecté à **@Xebiconfr**
 
-*Merci à nos sponsors*
+Merci à nos sponsors
 
-![inline](confluent-logo.png) ![inline](datastax-logo.png) ![inline](scaleway-logo.png)
-
+![inline](assets/confluent-logo.png) ![inline](assets/datastax-logo.png) ![inline](assets/scaleway-logo.png)

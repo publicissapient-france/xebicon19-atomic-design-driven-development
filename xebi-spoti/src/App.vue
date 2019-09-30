@@ -28,7 +28,6 @@
   body {
     font-family: 'Nunito', sans-serif;
     color: #666666;
-    background-color: #FAFAFA;
     cursor: default;
   }
 

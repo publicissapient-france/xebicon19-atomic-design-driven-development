@@ -17,17 +17,18 @@ function subtitle(i) {
   }
 }
 
-const image = {
-  src: 'https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/tt-data-science.webp',
-};
+function image(name) {
+  return {
+    src: `https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-${name}.webp`,
+  };
+}
 
 const techTrends = [
-  {title: 'DevOps', image},
-  {title: 'Mobile', image},
-  {title: 'Agile', image},
-  {title: 'Data', image},
-  {title: 'Back', image},
-  {title: 'Cloud', image},
+  {title: 'Cloud', image: image('cloud')},
+  {title: 'Container', image: image('container')},
+  {title: 'Data', image: image('data')},
+  {title: 'Mobile', image: image('mobile')},
+  {title: 'Studio', image: image('studio')},
 ];
 
 const ttCategories = [1, 2, 3, 4].map(i => ({techTrends, title: title(i), subtitle: subtitle(i)}));
