@@ -475,6 +475,9 @@ J
 - *13* lignes de script *JavaScript*
 - *48* lignes de style *CSS*
 
+^
+J
+
 # *Xebi-Spoti* constat
 
 - Aucun composant spécifique
@@ -491,6 +494,9 @@ J
 
 [.text-emphasis: #e94552, Roboto Black]
 
+^
+J
+
 # *Xebi-Spoti* migration
 
 - Refactorer
@@ -505,6 +511,9 @@ J
 [.text: #000, line-height(.6), Roboto Light]
 
 [.text-emphasis: #e94552, Roboto Black]
+
+^
+J
 
 # HowTo
 
@@ -527,6 +536,9 @@ J
 
 [.hide-footer]
 
+^
+J
+
 # Cycle d'atomisation
 
 - TDD-like
@@ -537,17 +549,29 @@ J
 
 ![right 100%](./assets/tdd.png)
 
+^
+B
+
 # Cycle d'atomisation - *atome*
 
 ![inline](./assets/schema-1.png)
+
+^
+J
 
 # Cycle d'atomisation - *molécule*
 
 ![inline](./assets/schema-2.png)
 
+^
+J
+
 # Cycle d'atomisation - *organisme*
 
 ![inline](./assets/schema-3.png)
+
+^
+B
 
 # Cycle d'atomisation - *conseils*
 
@@ -565,7 +589,10 @@ J
 
 [.hide-footer]
 
-# Atomic Design
+^
+J
+
+# Conclusion
 
 - Même sur un projet *legacy*
 - *Découpage*
