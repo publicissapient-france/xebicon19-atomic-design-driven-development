@@ -2,21 +2,21 @@
   {
     "techTrends": [
       {
-        "title": "DevOps",
+        "title": "Cloud",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-cloud.webp"
         }
       },
       {
-        "title": "Mobile",
+        "title": "Container",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-container.webp"
         }
       },
       {
-        "title": "Agile",
+        "title": "Data",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-data.webp"
         }
       },
       {
@@ -26,15 +26,9 @@
         }
       },
       {
-        "title": "Back",
+        "title": "Studio",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
-        }
-      },
-      {
-        "title": "Cloud",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-studio.webp"
         }
       }
     ],
@@ -44,21 +38,21 @@
   {
     "techTrends": [
       {
-        "title": "DevOps",
+        "title": "Cloud",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-cloud.webp"
         }
       },
       {
-        "title": "Mobile",
+        "title": "Container",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-container.webp"
         }
       },
       {
-        "title": "Agile",
+        "title": "Data",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-data.webp"
         }
       },
       {
@@ -68,15 +62,9 @@
         }
       },
       {
-        "title": "Back",
+        "title": "Studio",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
-        }
-      },
-      {
-        "title": "Cloud",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-studio.webp"
         }
       }
     ],
@@ -86,21 +74,21 @@
   {
     "techTrends": [
       {
-        "title": "DevOps",
+        "title": "Cloud",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-cloud.webp"
         }
       },
       {
-        "title": "Mobile",
+        "title": "Container",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-container.webp"
         }
       },
       {
-        "title": "Agile",
+        "title": "Data",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-data.webp"
         }
       },
       {
@@ -110,15 +98,9 @@
         }
       },
       {
-        "title": "Back",
+        "title": "Studio",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
-        }
-      },
-      {
-        "title": "Cloud",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-studio.webp"
         }
       }
     ],
@@ -128,21 +110,21 @@
   {
     "techTrends": [
       {
-        "title": "DevOps",
+        "title": "Cloud",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-cloud.webp"
         }
       },
       {
-        "title": "Mobile",
+        "title": "Container",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-container.webp"
         }
       },
       {
-        "title": "Agile",
+        "title": "Data",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-data.webp"
         }
       },
       {
@@ -152,15 +134,9 @@
         }
       },
       {
-        "title": "Back",
+        "title": "Studio",
         "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
-        }
-      },
-      {
-        "title": "Cloud",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
+          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-studio.webp"
         }
       }
     ],
