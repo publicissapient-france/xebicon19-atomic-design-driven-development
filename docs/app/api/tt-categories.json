@@ -106,41 +106,5 @@
     ],
     "title": "Tech Trends #3",
     "subtitle": "From Tech to Trends and beyond"
-  },
-  {
-    "techTrends": [
-      {
-        "title": "Cloud",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-cloud.webp"
-        }
-      },
-      {
-        "title": "Container",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-container.webp"
-        }
-      },
-      {
-        "title": "Data",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-data.webp"
-        }
-      },
-      {
-        "title": "Data",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-mobile.webp"
-        }
-      },
-      {
-        "title": "Studio",
-        "image": {
-          "src": "https://xebia-france.github.io/xebicon19-atomic-design-driven-development/app/assets/tt-studio.webp"
-        }
-      }
-    ],
-    "title": "Tech Trends #4",
-    "subtitle": "In code we trust"
   }
 ]
