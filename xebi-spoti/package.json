@@ -5,23 +5,26 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook",
     "storybook:build": "build-storybook -c .storybook -o ../docs/sb"
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "core-js": "^2.6.5",
+    "core-js": "^3.3.6",
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@storybook/vue": "^5.2.1",
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
+    "@storybook/vue": "^5.2.5",
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-plugin-unit-jest": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "@vue/test-utils": "1.0.0-beta.29",
     "babel-eslint": "^10.0.1",
     "babel-preset-vue": "^2.0.2",
-    "eslint": "^5.16.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
@@ -37,7 +40,18 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/*.{j,t}s?(x)",
+          "**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
   },
   "postcss": {
     "plugins": {

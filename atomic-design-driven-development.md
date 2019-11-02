@@ -124,9 +124,15 @@ B
 ^
 J
 
+# Démo
+
+## Website des *TechTrends 2019*
+
+![right 28%](assets/website.png)
+
 # Atome
 
-![left 70%](assets/atome.png)
+![left 90%](assets/atome.png)
 
 Element *indivisible* qui sert de *base* à d'autres composants.
 *Simple* et utilisé à *plusieurs* endroit.
@@ -155,7 +161,7 @@ J
 
 # Molécule
 
-![right 60%](assets/molecule.png)
+![right 90%](assets/molecule.png)
 
 *Collection* d'atomes qui forment des composants un peu plus *complexes* 
 
@@ -163,7 +169,7 @@ Les molécules sont *sensibles* à la *taille* des écrans
 <br/>
 Exemple :
 
-- label + champs de saisie + pictogramme loupe 🔍
+- photo + titre
 
 ^
 B
@@ -201,7 +207,7 @@ Combinaison *complexe* de *molécules* et ou *d'atomes* qui forment un *partie* 
 <br/>
 Exemple :
 
-- Champ de recherche + navigation + logo = header 
+- Plusieurs TT + titre de section = 1 catégorie de TT 
 
 ^
 J
@@ -237,7 +243,7 @@ J
 
 [.hide-footer]
 
-![right 40%](assets/template.png)
+![right 37%](assets/template.png)
 
 Une *page*... sans *données*.
 
@@ -247,7 +253,7 @@ C'est le *dernier* niveau qui est dans *Storybook*.
 
 Exemple :
 
-- Header + liste des catégories + footer
+- Catégories de TT + titre de page = Page complète présentant les TT.
 
 ^
 B
@@ -330,12 +336,31 @@ export default {
 ^
 J
 
----
+# Storybook
 
-![fit autoplay](https://storybook.js.org/videos/storybook-hero-video-optimized.mp4)
+## Démo
+
+![inline](./assets/storybook.png)
 
 ^
 B
+
+# Storybook
+
+[.code-highlight: 1]
+
+[.code-highlight: 3-8]
+
+```javascript
+export default {title: 'Atoms/TechTrendImage'};
+
+export const withImage = () => ({
+  components: {TechTrendImage},
+  template: `<TechTrendImage 
+                src="http://image.png" 
+                alt="image alt"/>`,
+});
+```
 
 # Découper pour mieux tester
 
@@ -480,15 +505,15 @@ J
 
 # *Xebi-Spoti* constat
 
-- Aucun composant spécifique
-- Tout est mélangé
+- *Aucun* composant *spécifique*
+- Tout est *mélangé*
     - Les appels réseaux
     - Les styles de tous les composants
-- Difficile de lire la structure
+- *Difficile* de lire la *structure*
     - Des boucles dans tous les sens
     - Des indentations à 8 niveaux de profondeur 😱
     - Les classes CSS sont mélangées
-- La réutilisabilité est impossible en l'état
+- La *réutilisabilité* est *impossible* en l'état
 
 [.text: #000, line-height(.5), Roboto Light]
 
@@ -500,12 +525,12 @@ J
 # *Xebi-Spoti* migration
 
 - Refactorer
-    - Extraire des composants réutilisables
+    - *Extraire* des composants *réutilisables*
     - Détricoter les appels réseaux
 - Documenter
-    - Rendre visible la bibliothèque de composants
+    - Rendre visible la *bibliothèque de composants*
 - Tester
-- Supprimer les duplications entre les pages
+- *Supprimer* les *duplications* entre les pages
 - Du + petit vers le + grand : de l'atome vers le template
 
 [.text: #000, line-height(.6), Roboto Light]
@@ -514,6 +539,32 @@ J
 
 ^
 J
+
+# Tester un atome
+
+[.code-highlight: 1-2]
+
+[.code-highlight: 3-5]
+
+[.code-highlight: 6-8]
+
+```javascript
+describe('TechTrendImage', () => {
+  it('should have src and an alt', () => {
+    const wrapper = shallowMount(TechTrendImage, {
+      propsData: {src: 'http://img.img', alt: 'img alt'},
+    });
+    const img = wrapper.find('img');
+    expect(img.attributes().src).toBe('http://img.img');
+    expect(img.attributes().alt).toBe('img alt');
+  });
+});
+```
+
+^
+Vue
+Jest
+Comme pour atome, organisme, template.
 
 # HowTo
 
@@ -610,7 +661,7 @@ J
 
 ## Merci
 
-![right filtered](./assets/questions.png)
+![right](./assets/questions-qr.png)
 
 [.background-color: #e94552]
 

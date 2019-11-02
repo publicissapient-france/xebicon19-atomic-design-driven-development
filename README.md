@@ -15,12 +15,13 @@ Demo:
 
 > Retours XKE d'octobre 2019
 
-- [ ] Mini quiz Atome, Molécule, Organisme, Template
-- [ ] Refactoring des captures des éléments pour ajouter des carrés (clarté)
-- [ ] Expliquer qu'on a choisi le site des tech trends
-- [ ] Démonstration Storybook
+- [ ] ~Mini quiz Atome, Molécule, Organisme, Template~
+- [x] Refactoring des captures des éléments pour ajouter des carrés (clarté)
+- [x] Expliquer qu'on a choisi le site des tech trends
+- [x] Démonstration Storybook
 - [ ] Refaire une application Legacy
-- [ ] Exemple de test unitaire d'un composant (Vue)
+- [x] Exemple de test unitaire d'un composant (Vue)
+- [x] Exemple de story d'un composant (Vue)
 
 ### v1
 
