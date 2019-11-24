@@ -19,7 +19,7 @@ B
 
 # Benjamin Lacroix
 
-![left filtered 270%](assets/benjamin-lacroix.jpg)
+![left filtered](assets/benjamin-lacroix.jpg)
 
 Développeur fullstack à Xebia depuis 6 ans
 
@@ -27,14 +27,16 @@ Adepte de l'Atomic Design ⚛︎ from scratch
 
 *@benjlacroix*
 
-[.footer-style: alignment(right), text-scale(1.6 )]
+[.footer-style: alignment(right), text-scale(1.6)]
+
+[.slidenumbers: false]
 
 ^
 B
 
 # Julien Smadja
 
-![right filtered 250%](assets/julien-smadja.jpg)
+![right filtered](assets/julien-smadja.jpg)
 
 Développeur fullstack à Xebia depuis 9 ans
 
