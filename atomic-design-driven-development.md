@@ -378,6 +378,32 @@ export const withImage = () => ({
 ^
 B
 
+# Tester un atome
+
+[.code-highlight: 1-2]
+
+[.code-highlight: 3-5]
+
+[.code-highlight: 6-8]
+
+```javascript
+describe('TechTrendImage', () => {
+  it('should have src and an alt', () => {
+    const wrapper = shallowMount(TechTrendImage, {
+      propsData: {src: 'http://img.img', alt: 'img alt'},
+    });
+    const img = wrapper.find('img');
+    expect(img.attributes().src).toBe('http://img.img');
+    expect(img.attributes().alt).toBe('img alt');
+  });
+});
+```
+
+^
+Vue
+Jest
+Comme pour atome, organisme, template.
+
 # Atomiser
 
 ![right 90%](./assets/atomic-bomb.jpg)
@@ -542,32 +568,6 @@ J
 
 ^
 J
-
-# Tester un atome
-
-[.code-highlight: 1-2]
-
-[.code-highlight: 3-5]
-
-[.code-highlight: 6-8]
-
-```javascript
-describe('TechTrendImage', () => {
-  it('should have src and an alt', () => {
-    const wrapper = shallowMount(TechTrendImage, {
-      propsData: {src: 'http://img.img', alt: 'img alt'},
-    });
-    const img = wrapper.find('img');
-    expect(img.attributes().src).toBe('http://img.img');
-    expect(img.attributes().alt).toBe('img alt');
-  });
-});
-```
-
-^
-Vue
-Jest
-Comme pour atome, organisme, template.
 
 # HowTo
 
